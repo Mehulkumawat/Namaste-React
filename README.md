@@ -21,11 +21,11 @@
 -Content Delivery Network (CDN) is a network of servers located in different geographical locations that are used to deliver content to users based on their geographic location. CDNs are used to improve the performance and availability of websites and applications by serving content from servers that are closer to the user, reducing the distance the data has to travel and minimizing latency.
 
 -CDN are used for:
-    -*Enhancing security*: CDNs can provide additional security measures such as DDoS protection and SSL encryption, helping to protect websites and applications from attacks.
-    -*Reducing bandwidth costs*: CDNs can reduce the amount of bandwidth required by a website or application by serving cached copies of content from servers located closer to the user.
-    -*Improving the speed of web pages*: By serving content from a server that is physically closer to the user, CDNs can significantly improve the loading speed of web pages.
-    -CDNs are used by a wide range of websites and applications, including e-commerce sites, media and entertainment platforms, and software as a service (SaaS) providers.
-    -Improving availability: CDNs can help to improve the availability of a website or application by providing multiple copies of content that can be served to users if one server goes down.
+1.*Enhancing security*: CDNs can provide additional security measures such as DDoS protection and SSL encryption, helping to protect websites and applications from attacks.
+2.*Reducing bandwidth costs*: CDNs can reduce the amount of bandwidth required by a website or application by serving cached copies of content from servers located closer to the user.
+3.*Improving the speed of web pages*: By serving content from a server that is physically closer to the user, CDNs can significantly improve the loading speed of web pages.
+4.CDNs are used by a wide range of websites and applications, including e-commerce sites, media and entertainment platforms, and software as a service (SaaS) providers.
+5.Improving availability: CDNs can help to improve the availability of a website or application by providing multiple copies of content that can be served to users if one server goes down.
 
 
 **Why is React known as React?**
