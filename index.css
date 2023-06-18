@@ -1,3 +1,6 @@
+.app{
+    background-color: #dad4e8;
+}
 h1, h2, h3, h4, h5, h6{
     margin: 0px;
 }
@@ -9,6 +12,15 @@ h1, h2, h3, h4, h5, h6{
     border-top: 1px solid black;
     /* padding: 10px 0px; */
     padding: 0px 30px;
+    background-color: rgb(22 22 23 / 80%);
+    outline: none;
+    backdrop-filter: blur(20px);
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+
+    
 }
 
 .nav-items > ul {
@@ -21,6 +33,7 @@ h1, h2, h3, h4, h5, h6{
     /* padding: 2px; */
     font-size: 20px;
     margin: 10px;
+    color: rgb(247, 251, 251);
 }
 
 .logo {
@@ -32,6 +45,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
 }
+
 .res-container{
     display: flex;
     flex-wrap: wrap;
@@ -54,8 +68,16 @@ h1, h2, h3, h4, h5, h6{
 .search{
     padding: 10px;
 }
+
+.image{
+    overflow: hidden;
+}
 .res-img{
     width: 100%;
+    transition: scale 400ms;
+}
+.image:hover .res-img{
+    scale: 120%;
 }
 .res-detail{
     display: flex;
