@@ -75,3 +75,16 @@
 -The defer attribute tells the browser to download the script in the background while the page is still loading, but to execute the script only after the page has finished loading. This can also improve the loading speed of the page, as the script does not block the rendering of the page. However, unlike async, defer ensures that the script is executed in the order it appears in the HTML.
 
 _Both async and defer are used to improve the performance and loading speed of web pages by allowing scripts to be loaded and executed in a non-blocking manner. However, they have different behaviors and may be more suitable for different use cases
+
+
+
+
+
+
+There are two types of export/import
+    1-> Export default (name of variable)
+    import (name of variable) from '(location)'
+
+    2-> named export => to export multiple variable from a single file 
+     export const (name of variable) = {its implementation}
+     import {name of variable} from '(location)'
