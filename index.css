@@ -87,3 +87,10 @@ h1, h2, h3, h4, h5, h6{
 .res-type{
     margin: 5px 0px;
 }
+
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid;
+}
