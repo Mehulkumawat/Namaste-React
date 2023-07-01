@@ -1,6 +1,8 @@
 import logo from "../../Assets/logo-trans.png";
+import { useState } from "react";
 
 const Header = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState("Login");
     return (
       <div className="header">
         <div className="logo-container">
@@ -13,6 +15,11 @@ const Header = () => {
             <li>Contact us</li>
             <li>Cart</li>
           </ul>
+          <button className="btn-auth" onClick={() => {
+            isLoggedIn === "Login" ? setIsLoggedIn("Logout") : setIsLoggedIn("Login");
+          }}>
+            {isLoggedIn}
+          </button>
         </div>
       </div>
     );
