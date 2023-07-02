@@ -14,12 +14,12 @@ const Header = () => {
             <li>About us</li>
             <li>Contact us</li>
             <li>Cart</li>
-          </ul>
           <button className="btn-auth" onClick={() => {
             isLoggedIn === "Login" ? setIsLoggedIn("Logout") : setIsLoggedIn("Login");
           }}>
             {isLoggedIn}
           </button>
+          </ul>
         </div>
       </div>
     );

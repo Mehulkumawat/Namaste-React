@@ -2,9 +2,11 @@ import RestaurantCard from "./RestaurantCard";
 import Shimmer from './Shimmer'
 import resList from "../utils/sampleData";
 import { useEffect, useState } from "react";
+import Search from "./Search";
 
 export const Body = () => {
   const [restaurantList, setRestrauntList] = useState([]);
+  console.log("bdy");
 
   useEffect(() => {
     fetchData();
@@ -20,7 +22,8 @@ export const Body = () => {
 
   return restaurantList.length === 0 ? <Shimmer/> : (
     <div className="body">
-      <div className="Filter">
+      <div className="filter">
+        <Search/>
         <button
           className="filter-btn"
           onClick={() => {

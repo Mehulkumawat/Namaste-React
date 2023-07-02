@@ -46,6 +46,16 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 
+.btn-auth{
+    width: 60px;
+    margin: auto;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 17px;
+}
+
 .res-container{
     display: flex;
     flex-wrap: wrap;
@@ -63,10 +73,6 @@ h1, h2, h3, h4, h5, h6{
     cursor: pointer;
     border: 1px solid rgb(186, 184, 184);
     
-}
-
-.search{
-    padding: 10px;
 }
 
 .image{
@@ -107,4 +113,13 @@ h1, h2, h3, h4, h5, h6{
     background-color: #eef0f5;
     padding: 10px;
     margin: 5px;
+}
+
+/* search */
+.filter{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    padding: 10px;
 }
