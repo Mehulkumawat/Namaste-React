@@ -123,3 +123,28 @@ h1, h2, h3, h4, h5, h6{
 .search{
     padding: 10px;
 }
+
+
+/* Menu Items */
+
+.itemcard{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 300px;
+    padding: 10px 0px;
+    border-bottom: solid gray 1px;
+}
+.item-name{
+    font-size: 20px;
+    font-style: normal;
+    padding: 20px 0px 10px 0px ;
+}
+.item-price{
+    font-size: 16px;
+}
+
+.item-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
